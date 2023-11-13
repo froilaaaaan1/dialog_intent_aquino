@@ -63,6 +63,7 @@
         app:layout_constraintVertical_bias="0.30">
 
         <RadioButton
+            android:id="@+id/maleRadioButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/male_gender"
@@ -72,6 +73,7 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <RadioButton
+            android:id="@+id/femaleRadioButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/female_gender"
@@ -81,6 +83,7 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <RadioButton
+            android:id="@+id/nonBinaryRadioButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/non_binary_gender"
@@ -91,7 +94,7 @@
     </RadioGroup>
 
     <Button
-        android:id="@+id/zodiacButton"
+        android:id="@+id/resultButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:padding="20dp"
