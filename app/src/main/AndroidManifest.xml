@@ -13,9 +13,6 @@
         android:theme="@style/Theme.Dialog_And_Intent_Aquino_Froilan"
         tools:targetApi="31">
         <activity
-            android:name=".NearestValueTo20Result"
-            android:exported="false" />
-        <activity
             android:name=".ChineseZodiacAnimalResult"
             android:exported="false" />
         <activity
