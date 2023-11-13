@@ -17,6 +17,6 @@
     <string name="male_gender">Male</string>
     <string name="female_gender">Female</string>
     <string name="non_binary_gender">Non-Binary</string>
-    <string name="enter_your_birthplace">Modify your Birthplace</string>
+    <string name="enter_your_birthplace">Enter your Birthplace</string>
     <string name="enter_your_birth_year">Enter your Birth year</string>
 </resources>
