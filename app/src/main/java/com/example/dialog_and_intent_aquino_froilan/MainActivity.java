@@ -13,8 +13,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Button chineseZodiacButton = (Button) findViewById(R.id.zodiacButton);
-        Button nearValueButton = (Button) findViewById(R.id.nearestValueButton);
+        Button chineseZodiacButton = findViewById(R.id.zodiacButton);
+        Button nearValueButton = findViewById(R.id.nearestValueButton);
         Intent chineseZodiacIntent = new Intent(MainActivity.this, ChineseZodiacAnimalInput.class);
         Intent nearValueIntent = new Intent(MainActivity.this, NearestValueTo20Input.class);
 

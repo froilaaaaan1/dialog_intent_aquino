@@ -15,10 +15,10 @@ public class NearestValueTo20Input extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_nearest_value_to20_input);
         Toast toastObject = new Toast(NearestValueTo20Input.this);
-        EditText firstTextfield = (EditText) findViewById(R.id.firstNumberTextField);
-        EditText secondTextfield = (EditText) findViewById(R.id.secondNumberTextField);
-        EditText thirdTextfield = (EditText) findViewById(R.id.thirdNumberTextField);
-        Button getNearest = (Button) findViewById(R.id.getNearest);
+        EditText firstTextfield = findViewById(R.id.firstNumberTextField);
+        EditText secondTextfield = findViewById(R.id.secondNumberTextField);
+        EditText thirdTextfield = findViewById(R.id.thirdNumberTextField);
+        Button getNearest = findViewById(R.id.getNearest);
 
         getNearest.setOnClickListener(v -> {
             int firstNumber = Integer.parseInt(firstTextfield.getText().toString());
