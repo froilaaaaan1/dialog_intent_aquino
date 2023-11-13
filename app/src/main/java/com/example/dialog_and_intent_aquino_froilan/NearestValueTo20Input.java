@@ -33,7 +33,7 @@ public class NearestValueTo20Input extends AppCompatActivity {
             }
 
             AlertDialog.Builder prompt = new AlertDialog.Builder(NearestValueTo20Input.this);
-            prompt.setTitle("Nearest to 20");
+            prompt.setTitle("Nearest to 20 is:");
             prompt.setCancelable(false);
             prompt.setMessage(String.valueOf(nearest));
             prompt.setPositiveButton("DONE", (dialog, which) -> {
