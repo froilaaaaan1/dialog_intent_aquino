@@ -1,8 +1,10 @@
 package com.example.dialog_and_intent_aquino_froilan;
 
-import androidx.appcompat.app.AppCompatActivity;
-
+import android.content.Intent;
 import android.os.Bundle;
+import android.widget.Button;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -10,5 +12,15 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        Button chineseZodiacButton = (Button) findViewById(R.id.zodiacButton);
+        Button nearValueButton = (Button) findViewById(R.id.nearestValueButton);
+        Intent chineseZodiacIntent = new Intent(MainActivity.this, ChineseZodiacAnimalInput.class);
+        Intent nearValueIntent = new Intent(MainActivity.this, NearestValueTo20Input.class);
+
+        // shorter and cleaner way of starting an activity using lambda
+        chineseZodiacButton.setOnClickListener(v -> startActivity(chineseZodiacIntent));
+        nearValueButton.setOnClickListener(v -> startActivity(nearValueIntent));
+
     }
 }
