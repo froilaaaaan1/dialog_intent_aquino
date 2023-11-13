@@ -4,7 +4,7 @@ plugins {
 
 android {
     namespace = "com.example.dialog_and_intent_aquino_froilan"
-    compileSdk = 33
+    compileSdk = 34
 
     defaultConfig {
         applicationId = "com.example.dialog_and_intent_aquino_froilan"
