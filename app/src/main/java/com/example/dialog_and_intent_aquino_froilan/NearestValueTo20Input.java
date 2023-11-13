@@ -14,6 +14,7 @@ public class NearestValueTo20Input extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_nearest_value_to20_input);
+        Toast toastObject = new Toast(NearestValueTo20Input.this);
         EditText firstTextfield = (EditText) findViewById(R.id.firstNumberTextField);
         EditText secondTextfield = (EditText) findViewById(R.id.secondNumberTextField);
         EditText thirdTextfield = (EditText) findViewById(R.id.thirdNumberTextField);
@@ -36,15 +37,15 @@ public class NearestValueTo20Input extends AppCompatActivity {
             prompt.setCancelable(false);
             prompt.setMessage(String.valueOf(nearest));
             prompt.setPositiveButton("DONE", (dialog, which) -> {
-                Toast note = new Toast(NearestValueTo20Input.this);
                 firstTextfield.setText("");
                 secondTextfield.setText("");
                 thirdTextfield.setText("");
-                note.setText(R.string.process_done);
-                note.show();
+                toastObject.setText(R.string.process_done);
+                toastObject.show();
             });
             prompt.setNegativeButton("RETYPE", (dialog, which) -> {
-
+                toastObject.setText(R.string.modify_your_input);
+                toastObject.show();
             });
 
             prompt.show();
