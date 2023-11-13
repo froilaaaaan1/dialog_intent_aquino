@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Dialog_And_Intent_Aquino_Froilan</string>
+    <string name="chinese_zodiac_animal_button">Chinese Zodiac Animal</string>
+    <string name="nearest_value_to_20_button">Nearest Value To 20</string>
 </resources>
