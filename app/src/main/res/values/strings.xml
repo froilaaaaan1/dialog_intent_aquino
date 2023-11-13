@@ -1,11 +1,22 @@
 <resources>
+    <!-- For Main Activity -->
     <string name="app_name">Dialog_And_Intent_Aquino_Froilan</string>
     <string name="chinese_zodiac_animal_button">Chinese Zodiac Animal</string>
     <string name="nearest_value_to_20_button">Nearest Value To 20</string>
+
+    <!-- For Nearest to 20 Activity -->
     <string name="enter_the_first_number">Enter the First Number</string>
     <string name="enter_the_second_number">Enter the Second Number</string>
     <string name="enter_the_third_number">Enter the Third Number</string>
     <string name="get_the_nearest">Get The Nearest</string>
     <string name="process_done">Process Done.</string>
     <string name="modify_your_input">Modify Your Input.</string>
+
+    <!--For Zodiac Sign Activity-->
+    <string name="enter_your_name">Enter your Name</string>
+    <string name="male_gender">Male</string>
+    <string name="female_gender">Female</string>
+    <string name="non_binary_gender">Non-Binary</string>
+    <string name="enter_your_birthplace">Modify your Birthplace</string>
+    <string name="enter_your_birth_year">Enter your Birth year</string>
 </resources>
