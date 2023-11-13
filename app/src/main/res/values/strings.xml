@@ -2,4 +2,9 @@
     <string name="app_name">Dialog_And_Intent_Aquino_Froilan</string>
     <string name="chinese_zodiac_animal_button">Chinese Zodiac Animal</string>
     <string name="nearest_value_to_20_button">Nearest Value To 20</string>
+    <string name="enter_the_first_number">Enter the First Number</string>
+    <string name="enter_the_second_number">Enter the Second Number</string>
+    <string name="enter_the_third_number">Enter the Third Number</string>
+    <string name="get_the_nearest">Get The Nearest</string>
+    <string name="process_done">Process Done</string>
 </resources>
